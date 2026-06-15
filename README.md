@@ -1,38 +1,60 @@
-# sv
+# VIBE 2026
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Website for the 2026 annual conference of the Virtual Institute of Bioinformatics and Evolution (VIBE), hosted by [ELIXIR Ireland](https://www.elixir-ireland.ie/).
 
-## Creating a project
+Based on [vibe-2025](https://github.com/McLysaght-Evolutionary-Genetics/vibe-2025) by [McLysaght Evolutionary Genetics](https://github.com/McLysaght-Evolutionary-Genetics). Original site built by [Dragon1320](https://github.com/Dragon1320).
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Local development
 
-# create a new project in my-app
-npx sv create my-app
+Requires [Docker](https://docs.docker.com/get-docker/).
+
+```bash
+docker compose up --build
 ```
 
-## Developing
+Starts a Vite dev server with hot module replacement. The site is available at:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+**http://localhost:5173/vibe-2026/**
 
-```sh
-npm run dev
+Changes to files under `src/` and `static/` are reflected in the browser instantly. Stop with `Ctrl+C`.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+> On first run `--build` downloads the base image and installs dependencies (~1–2 min). Subsequent runs start in seconds from the cached layer.
+
+---
+
+## Deployment
+
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the static site and deploys to GitHub Pages automatically.
+
+**Live site:** https://elixir-ie.github.io/vibe-2026/
+
+To enable GitHub Pages on a new repo: **Settings → Pages → Source → GitHub Actions**.
+
+---
+
+## Production preview (without Docker)
+
+```bash
+pnpm install
+pnpm build
+pnpm preview
 ```
 
-## Building
+---
 
-To create a production version of your app:
+## Serving under elixir-ireland.ie
 
-```sh
-npm run build
+The site is designed to sit at `elixir-ireland.ie/vibe-2026/` via a reverse proxy on the main server. Add this block to the `elixir-ireland.ie` nginx config:
+
+```nginx
+location /vibe-2026/ {
+    proxy_pass https://elixir-ie.github.io/vibe-2026/;
+    proxy_set_header Host elixir-ie.github.io;
+    proxy_ssl_server_name on;
+    proxy_set_header Accept-Encoding "";
+}
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This is fully isolated from the main site — a single location block, no other changes required.

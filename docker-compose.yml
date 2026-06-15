@@ -1,0 +1,12 @@
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    volumes:
+      - ./src:/app/src
+      - ./static:/app/static
+      - ./svelte.config.js:/app/svelte.config.js
+      - ./vite.config.ts:/app/vite.config.ts
+    ports:
+      - "5173:5173"

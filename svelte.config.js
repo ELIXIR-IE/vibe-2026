@@ -22,7 +22,7 @@ const config = {
       "@/*": "./src/lib",
     },
     paths: {
-      base: "/vibe",
+      base: "/vibe-2026",
     },
   },
 };
