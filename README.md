@@ -4,6 +4,8 @@ Website for the 2026 annual conference of the Virtual Institute of Bioinformatic
 
 Based on [vibe-2025](https://github.com/McLysaght-Evolutionary-Genetics/vibe-2025) by [McLysaght Evolutionary Genetics](https://github.com/McLysaght-Evolutionary-Genetics). Original site built by [Dragon1320](https://github.com/Dragon1320).
 
+See [AGENTS.md](AGENTS.md) for coding conventions and guardrails to follow when making changes (for both humans and AI agents).
+
 ---
 
 ## Local development
@@ -26,7 +28,7 @@ Changes to files under `src/` and `static/` are reflected in the browser instant
 
 ## Deployment
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the static site and deploys to GitHub Pages automatically.
+Pushing to `master` triggers `.github/workflows/deploy.yml`, which builds the static site and deploys to GitHub Pages automatically.
 
 **Live site:** https://elixir-ie.github.io/vibe-2026/
 
