@@ -18,8 +18,10 @@
           <img src="./vibe26logo.png" alt="VIBE 2026 logo" class="mb-4" />
         </div>
         <p class="mx-auto mb-4 max-w-3xl text-center lg:text-xl">VIBE 2026</p>
-        <p class="mx-auto max-w-3xl text-center text-muted-foreground lg:text-xl">Dates and venue to be announced</p>
-        <p class="mx-auto mb-2 max-w-3xl text-center text-muted-foreground lg:text-xl">Ireland</p>
+        <p class="mx-auto max-w-3xl text-center text-muted-foreground lg:text-xl">3rd December 2026</p>
+        <p class="mx-auto mb-2 max-w-3xl text-center text-muted-foreground lg:text-xl">
+          DCU Glasnevin Campus, Dublin, Ireland
+        </p>
       </div>
       <div class="mt-6 flex justify-center gap-3">
         <Button disabled class="shadow-sm transition-shadow hover:shadow" href="#">Registration Opening Soon</Button>
@@ -78,7 +80,7 @@
   <div class="relative z-10 container mx-auto">
     <div class="mx-auto flex max-w-5xl flex-col items-center">
       <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">Venue</h2>
-      <p class="text-center text-muted-foreground lg:text-xl">Venue details coming soon.</p>
+      <p class="text-center text-muted-foreground lg:text-xl">DCU Glasnevin Campus, Dublin, Ireland</p>
     </div>
   </div>
 </section>
