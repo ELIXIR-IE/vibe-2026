@@ -3,9 +3,23 @@
     <div class="mx-auto flex max-w-5xl flex-col items-center">
       <div>
         <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">VIBE 2026 Organising Committee</h2>
-        <p class="mx-auto max-w-5xl text-center text-muted-foreground lg:text-xl">
-          The organising committee for VIBE 2026 will be announced here in due course.
-        </p>
+        <div class="mx-auto grid max-w-4xl grid-cols-1 gap-4 text-left sm:grid-cols-2 lg:text-lg">
+          <div><span class="font-semibold">Daniel Murphy</span> — Host/Organiser</div>
+          <div><span class="font-semibold">Denise Harold</span> — Registration and Delegate Support</div>
+          <div><span class="font-semibold">Sally Owens</span> — EDI & Accessibility Co-Lead</div>
+          <div><span class="font-semibold">Michael Kitching</span> — Scientific Program Chair</div>
+          <div><span class="font-semibold">Kseniia Sobol</span> — Registration and Delegate Support</div>
+          <div><span class="font-semibold">Cian Ennis</span> — EDI & Accessibility Co-Lead</div>
+          <div><span class="font-semibold">Callum Sheridan</span> — Communications & Website</div>
+          <div><span class="font-semibold">Priyanka Bhatnagar</span> — Logistics & Venue Coordinator</div>
+          <div><span class="font-semibold">Salini Mohapatra</span> — Logistics & Venue Coordinator</div>
+          <div><span class="font-semibold">Gaetan Thilliez</span> — Sponsorship & Finance Lead</div>
+          <div><span class="font-semibold">Francesca Mastrosimone</span> — Social & Networking Coordinator</div>
+          <div><span class="font-semibold">Megan Davis</span> — Logistics & Venue Coordinator</div>
+          <div><span class="font-semibold">Jessica Alyas</span> — BRS</div>
+          <div><span class="font-semibold">Anmol Kiran</span> — Sponsorship & Finance</div>
+          <div><span class="font-semibold">Gavin Farrell</span> — Website & ELIXIR Ireland Node Coordinator</div>
+        </div>
       </div>
     </div>
   </div>

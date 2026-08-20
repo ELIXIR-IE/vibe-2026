@@ -94,6 +94,7 @@
           </Button>
         </p>
         <p>Based on <a class="text-primary" href="https://github.com/McLysaght-Evolutionary-Genetics/vibe-2025" target="_blank">vibe-2025</a> by McLysaght Evolutionary Genetics</p>
+        <p class="text-xs text-muted-foreground">Website by Callum Sheridan</p>
       </div>
     </footer>
   </div>
