@@ -11,7 +11,7 @@
       <div>
         <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">Venue</h2>
         <p class="mx-auto max-w-5xl text-center text-muted-foreground lg:text-xl">
-          Venue details for VIBE 2026 will be announced here in due course.
+          DCU Glasnevin Campus, Dublin, Ireland.
         </p>
       </div>
     </div>

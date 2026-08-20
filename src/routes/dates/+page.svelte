@@ -11,7 +11,9 @@
       <div>
         <p class="mx-auto mb-8 max-w-5xl text-justify lg:text-2xl"><b>Important dates</b></p>
         <p class="mx-auto mb-4 max-w-5xl text-center text-muted-foreground lg:text-xl">
-          Key dates for VIBE 2026 will be announced here once confirmed. Check back soon.
+          The VIBE 2026 conference will take place on <span class="font-semibold text-foreground"
+            >3rd December 2026</span
+          >.
         </p>
       </div>
     </div>
