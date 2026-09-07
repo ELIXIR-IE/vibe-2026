@@ -43,7 +43,7 @@
             <span class="font-semibold">Anmol Kiran</span> — Sponsorship & Finance
           </div>
           <div class="rounded-lg border p-4">
-            <span class="font-semibold">Gavin Farrell</span> — Website & ELIXIR Ireland Node Coordinator
+            <span class="font-semibold">Gavin Farrell</span> — GitHub Setup
           </div>
         </div>
       </div>

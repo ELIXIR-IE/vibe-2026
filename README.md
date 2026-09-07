@@ -2,7 +2,7 @@
 
 [![Licence: GPL-3.0](https://img.shields.io/badge/Licence-GPL--3.0-blue.svg)](LICENSE)
 
-Website for the 2026 annual conference of the Virtual Institute of Bioinformatics and Evolution (VIBE), hosted by [ELIXIR Ireland](https://www.elixir-ireland.ie/).
+Website for the 2026 annual conference of the Virtual Institute of Bioinformatics and Evolution (VIBE), hosted by Dublin City University (DCU) at its Glasnevin Campus, Dublin.
 
 Based on [vibe-2025](https://github.com/McLysaght-Evolutionary-Genetics/vibe-2025) by [McLysaght Evolutionary Genetics](https://github.com/McLysaght-Evolutionary-Genetics), original site built by [Dragon1320](https://github.com/Dragon1320), and licensed under the **GPL-3.0** — the same licence as that source. See [Licence](#licence) below.
 
@@ -45,23 +45,6 @@ pnpm install
 pnpm build
 pnpm preview
 ```
-
----
-
-## Serving under elixir-ireland.ie
-
-The site is designed to sit at `elixir-ireland.ie/vibe-2026/` via a reverse proxy on the main server. Add this block to the `elixir-ireland.ie` nginx config:
-
-```nginx
-location /vibe-2026/ {
-    proxy_pass https://elixir-ie.github.io/vibe-2026/;
-    proxy_set_header Host elixir-ie.github.io;
-    proxy_ssl_server_name on;
-    proxy_set_header Accept-Encoding "";
-}
-```
-
-This is fully isolated from the main site — a single location block, no other changes required.
 
 ---
 

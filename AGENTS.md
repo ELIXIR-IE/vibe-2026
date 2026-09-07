@@ -5,10 +5,10 @@ Guidance for AI coding agents (and human contributors) working in this repositor
 ## Project overview
 
 Static website for VIBE 2026, the annual conference of the Virtual Institute of
-Bioinformatics and Evolution, hosted by ELIXIR Ireland. Built with SvelteKit
-(Svelte 5) + TypeScript + Tailwind CSS v4 + shadcn-svelte, exported as a fully
-static site via `@sveltejs/adapter-static` and deployed to GitHub Pages under
-the `/vibe-2026` base path.
+Bioinformatics and Evolution, hosted by Dublin City University (DCU). Built
+with SvelteKit (Svelte 5) + TypeScript + Tailwind CSS v4 + shadcn-svelte,
+exported as a fully static site via `@sveltejs/adapter-static` and deployed to
+GitHub Pages under the `/vibe-2026` base path.
 
 ## Setup & commands
 
@@ -62,8 +62,9 @@ trailing commas, 120-column width, Tailwind classes auto-sorted via
 ## Things that must not change without a clear reason
 
 - `kit.paths.base = "/vibe-2026"` in `svelte.config.js` — must stay in sync
-  with the GitHub Pages repo path and the nginx reverse-proxy block in
-  `README.md`. Changing it silently breaks every internal link and asset URL.
+  with the GitHub Pages repo path (the site is served from
+  `elixir-ie.github.io/vibe-2026/`). Changing it silently breaks every internal
+  link and asset URL.
 - The `build/.nojekyll` step in `.github/workflows/deploy.yml` — required so
   GitHub Pages serves the `_app/` directory (Jekyll ignores underscore-
   prefixed paths by default). Do not remove it.
@@ -76,6 +77,5 @@ trailing commas, 120-column width, Tailwind classes auto-sorted via
 
 Pushing to `master` triggers `.github/workflows/deploy.yml`, which builds the
 site and deploys it to GitHub Pages automatically at
-`https://elixir-ie.github.io/vibe-2026/`. The site is also reverse-proxied at
-`elixir-ireland.ie/vibe-2026/` (nginx config documented in `README.md`) — that
-infra is already live and depends on the base path above staying correct.
+`https://elixir-ie.github.io/vibe-2026/`. That is the only place the site is
+served from — there is no reverse proxy or custom domain in front of it.
