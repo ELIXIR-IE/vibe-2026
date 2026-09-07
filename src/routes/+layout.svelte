@@ -28,7 +28,7 @@
   <div class="container mx-auto">
     <nav class="flex items-center justify-between">
       <a href="{base}/" class="flex items-center gap-2 font-bold"
-        ><span>VIBE<span class="text-amber-700">2026</span> HOMEPAGE</span></a
+        ><span>VIBE<span class="text-vibe-gold">2026</span> HOMEPAGE</span></a
       >
       <NavigationMenu class="hidden lg:block">
         <NavigationMenuList>
@@ -54,7 +54,7 @@
           <SheetHeader>
             <SheetTitle>
               <a href="{base}/" class="flex items-center gap-2"
-                ><span>VIBE<span class="text-amber-700">2026</span> HOMEPAGE</span></a
+                ><span>VIBE<span class="text-vibe-gold">2026</span> HOMEPAGE</span></a
               >
             </SheetTitle>
           </SheetHeader>
