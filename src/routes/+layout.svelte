@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import favicon from "$lib/assets/favicon.png";
   import Button from "@/components/ui/button/button.svelte";
   import NavigationMenuItem from "@/components/ui/navigation-menu/navigation-menu-item.svelte";
@@ -11,7 +12,6 @@
   import SheetHeader from "@/components/ui/sheet/sheet-header.svelte";
   import SheetTitle from "@/components/ui/sheet/sheet-title.svelte";
   import SheetTrigger from "@/components/ui/sheet/sheet-trigger.svelte";
-  import { base } from "$app/paths";
   import { links } from "@/utils";
   import { LinkedinIcon, Mail, MenuIcon } from "@lucide/svelte";
   import "../app.css";
@@ -42,7 +42,9 @@
         </NavigationMenuList>
       </NavigationMenu>
       <div class="hidden items-center gap-4 lg:flex">
-        <Button variant="default" disabled href="#">Registration Opening Soon</Button>
+        <Button variant="default" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
+          >Register/Submit</Button
+        >
       </div>
       <Sheet>
         <SheetTrigger class="lg:hidden">
@@ -67,7 +69,9 @@
               {/each}
             </div>
             <div class="mt-6 flex flex-col gap-4">
-              <Button variant="default" disabled href="#">Registration Opening Soon</Button>
+              <Button variant="default" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
+                >Register/Submit</Button
+              >
             </div>
           </div>
         </SheetContent>
@@ -101,6 +105,7 @@
           > by McLysaght Evolutionary Genetics
         </p>
         <p class="text-xs text-muted-foreground">Website adapted by Callum Sheridan</p>
+        <p class="text-xs text-muted-foreground">Logo designed by Róisín Long</p>
       </div>
     </footer>
   </div>

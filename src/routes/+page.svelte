@@ -24,8 +24,11 @@
         </p>
       </div>
       <div class="mt-6 flex justify-center gap-3">
-        <Button disabled class="shadow-sm transition-shadow hover:shadow" href="#">Registration Opening Soon</Button>
-        <Button disabled variant="outline" class="group" href="#">Abstract Submission Coming Soon</Button>
+        <Button
+          class="shadow-sm transition-shadow hover:shadow"
+          href="https://app.oxfordabstracts.com/stages/82886/submitter"
+          target="_blank">Registration and Abstract Submission</Button
+        >
       </div>
     </div>
   </div>
