@@ -20,7 +20,7 @@ docker compose up --build
 
 Starts a Vite dev server with hot module replacement. The site is available at:
 
-**http://localhost:5173/vibe-2026/**
+**http://localhost:5173/**
 
 Changes to files under `src/` and `static/` are reflected in the browser instantly. Stop with `Ctrl+C`.
 
@@ -32,7 +32,9 @@ Changes to files under `src/` and `static/` are reflected in the browser instant
 
 Pushing to `master` triggers `.github/workflows/deploy.yml`, which builds the static site and deploys to GitHub Pages automatically.
 
-**Live site:** https://elixir-ie.github.io/vibe-2026/
+**Live site:** https://vibe-ireland.ie/
+
+The domain is registered via Maxer with DNS hosted free on Cloudflare (DNS-only, not proxied), pointing at GitHub Pages. `static/CNAME` is what attaches the domain to Pages, and GitHub issues the HTTPS certificate for both `vibe-ireland.ie` and `www.vibe-ireland.ie`. The previous address, https://elixir-ie.github.io/vibe-2026/, now redirects here automatically.
 
 To enable GitHub Pages on a new repo: **Settings → Pages → Source → GitHub Actions**.
 

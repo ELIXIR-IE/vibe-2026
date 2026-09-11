@@ -22,7 +22,9 @@ const config = {
       "@/*": "./src/lib",
     },
     paths: {
-      base: "/vibe-2026",
+      // Served at the root of the custom domain https://vibe-ireland.ie/.
+      // Must stay "" while static/CNAME is in place — see AGENTS.md.
+      base: "",
     },
   },
 };

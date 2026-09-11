@@ -13,6 +13,6 @@ COPY . .
 RUN pnpm build
 
 FROM nginx:alpine AS prod
-COPY --from=builder /app/build /usr/share/nginx/html/vibe-2026
+COPY --from=builder /app/build /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
