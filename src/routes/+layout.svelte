@@ -42,8 +42,13 @@
         </NavigationMenuList>
       </NavigationMenu>
       <div class="hidden items-center gap-4 lg:flex">
-        <Button variant="default" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
-          >Register/Submit</Button
+        <Button
+          variant="default"
+          href="https://app.oxfordabstracts.com/register/event/77953?preview=false"
+          target="_blank">Register</Button
+        >
+        <Button variant="outline" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
+          >Submit Abstract</Button
         >
       </div>
       <Sheet>
@@ -69,8 +74,13 @@
               {/each}
             </div>
             <div class="mt-6 flex flex-col gap-4">
-              <Button variant="default" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
-                >Register/Submit</Button
+              <Button
+                variant="default"
+                href="https://app.oxfordabstracts.com/register/event/77953?preview=false"
+                target="_blank">Register</Button
+              >
+              <Button variant="outline" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
+                >Submit Abstract</Button
               >
             </div>
           </div>
