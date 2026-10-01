@@ -40,9 +40,9 @@
     <div class="flex flex-col items-center justify-around space-y-10 lg:flex-row lg:space-y-0 lg:space-x-5">
       <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
         <Card.Content class="my-auto">
-          <div class="flex h-40 items-center justify-center">
-            <p class="text-center text-muted-foreground">Sponsor opportunities coming soon</p>
-          </div>
+          <a href="https://www.vwr.com/ie/en/" target="_blank" class="flex h-40 items-center justify-center p-6">
+            <img src="./vwr-logo.png" alt="VWR, part of Avantor" class="max-h-full max-w-full object-contain" />
+          </a>
         </Card.Content>
       </Card.Root>
       <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
