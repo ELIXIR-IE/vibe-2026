@@ -26,8 +26,11 @@
       <div class="mt-6 flex justify-center gap-3">
         <Button
           class="shadow-sm transition-shadow hover:shadow"
-          href="https://app.oxfordabstracts.com/stages/82886/submitter"
-          target="_blank">Registration and Abstract Submission</Button
+          href="https://app.oxfordabstracts.com/register/event/77953?preview=false"
+          target="_blank">Register</Button
+        >
+        <Button variant="outline" href="https://app.oxfordabstracts.com/stages/82886/submitter" target="_blank"
+          >Submit Abstract</Button
         >
       </div>
     </div>
