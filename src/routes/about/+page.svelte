@@ -4,8 +4,8 @@
       <div>
         <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">About VIBE</h2>
         <p class="mx-auto mb-4 max-w-5xl text-justify lg:text-xl">
-          The Virtual Institute of Bioinformatics & Evolution (<b>VIBE</b>) was founded in 2000, to consolidate
-          bioinformatics research efforts in Ireland, provide a forum for emerging bioinformatics researchers, provide a
+          The Virtual Institute of Bioinformatics & Evolution (<b>VIBE</b>) is an all-island research community in Ireland that was founded in 2000, 
+          to consolidate bioinformatics research efforts in Ireland, provide a forum for emerging bioinformatics researchers, provide a
           platform for the development of an Irish commercial bioinformatics capability, and develop bioinformatics
           teaching within Irish Universities.
         </p>
@@ -19,6 +19,9 @@
         <p class="mx-auto mb-6 max-w-5xl text-justify lg:text-xl">
           Details for the <b>next years conference</b> — including host institution, venue, and dates — will be announced here
           in due course. Stay tuned!
+        </p>
+
+        <p> Learn more about VIBE, its history, past conferences and members at <a href> https://elixir-ireland.ie/vibe/<a/>
         </p>
       </div>
     </div>
