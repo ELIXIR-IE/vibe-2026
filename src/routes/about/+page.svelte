@@ -17,7 +17,7 @@
           > in 2025, hosted at Trinity College Dublin by Máire Ní Leathlobhair.
         </p>
         <p class="mx-auto mb-6 max-w-5xl text-justify lg:text-xl">
-          Details for the <b>2026 conference</b> — including host institution, venue, and dates — will be announced here
+          Details for the <b>next years conference</b> — including host institution, venue, and dates — will be announced here
           in due course. Stay tuned!
         </p>
       </div>
