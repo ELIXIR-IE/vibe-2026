@@ -21,7 +21,9 @@
           in due course. Stay tuned!
         </p>
 
-        <p> Learn more about VIBE, its history, past conferences and members at <a href> https://elixir-ireland.ie/vibe/<a/>
+        <p> Learn more about VIBE, its history, past conferences and members on the <a
+            href="https://elixir-ireland.ie/vibe/"
+            target="_blank">ELIXIR Ireland website </a>
         </p>
       </div>
     </div>
