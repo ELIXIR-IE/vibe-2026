@@ -100,7 +100,7 @@
       >
         <p><span class="mr-1 font-bold text-primary">VIBE 2026</span> © All rights reserved.</p>
         <p>
-          <Button variant="outline" size="icon" href="https://www.linkedin.com/company/vibe-ireland/" target="_blank">
+          <Button variant="outline" size="icon" href="https://www.linkedin.com/company/vibe-2026/" target="_blank">
             <LinkedinIcon class="h-4 w-4" />
           </Button>
           <Button variant="outline" size="icon" href="mailto: vibe.eire@gmail.com">
