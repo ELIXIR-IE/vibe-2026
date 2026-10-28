@@ -50,16 +50,16 @@
       </Card.Root>
       <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
         <Card.Content class="my-auto">
-          <div class="flex h-40 items-center justify-center">
-            <p class="text-center text-muted-foreground">Sponsor opportunities coming soon</p>
-          </div>
+          <a href="https://www.parsebiosciences.com/" target="_blank" class="flex h-40 items-center justify-center p-6">
+            <img src="./Parse_Logo.png" alt="Parse Biosciences" class="max-h-full max-w-full object-contain" />
+          </a>
         </Card.Content>
       </Card.Root>
       <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
         <Card.Content class="my-auto">
-          <div class="flex h-40 items-center justify-center">
-            <p class="text-center text-muted-foreground">Sponsor opportunities coming soon</p>
-          </div>
+          <a href="https://www.cix.ie/" target="_blank" class="flex h-40 items-center justify-center p-6">
+            <img src="./CloudCIX_Logo.jpeg" alt="CloudCIX" class="max-h-full max-w-full object-contain" />
+          </a>
         </Card.Content>
       </Card.Root>
     </div>
