@@ -31,6 +31,25 @@
           >
         </div>
       </div>
+      <div class="mx-auto mt-10 flex max-w-4xl flex-col items-center gap-6 sm:flex-row sm:items-start">
+        <img
+          src="../harrison-anthony.jpg"
+          alt="Harrison Anthony"
+          class="h-48 w-48 shrink-0 rounded-full object-cover"
+        />
+        <div class="text-center sm:text-left">
+          <p class="mb-2 text-lg font-semibold text-foreground">Harrison Anthony</p>
+          <p class="mb-3 text-muted-foreground">
+            Harrison Anthony has been selected as the winner of this year's Research Ireland Centre for Research
+            Training (CRT) Alumnus Award and he will be presenting his research at this year's VIBE meeting.
+          </p>
+          <p class="text-muted-foreground">
+            Harrison is a postdoctoral researcher whose work centers on genomic instability and therapy resistance in
+            cancer. His recent work at the Princess Máxima Research Center focuses on analysing single-cell sequencing
+            data to better understand CAR-T relapse in pediatric cancer patients.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
