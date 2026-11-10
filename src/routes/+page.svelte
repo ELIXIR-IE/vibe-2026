@@ -140,10 +140,3 @@
 </section>
 
 <br />
-
-<section>
-  <div class="container mx-auto mt-15 mb-15">
-    <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">ECR Meeting Program</h2>
-    <p class="text-center text-muted-foreground lg:text-xl">Program coming soon.</p>
-  </div>
-</section>
