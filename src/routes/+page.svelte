@@ -1,4 +1,5 @@
 <script>
+  import ScheduleConference from "@/components/ScheduleConference.svelte";
   import Button from "@/components/ui/button/button.svelte";
   import * as Card from "@/components/ui/card";
 </script>
@@ -59,6 +60,43 @@
         <Card.Content class="my-auto">
           <a href="https://www.cix.ie/" target="_blank" class="flex h-40 items-center justify-center p-6">
             <img src="./CloudCIX_Logo.jpeg" alt="CloudCIX" class="max-h-full max-w-full object-contain" />
+          </a>
+        </Card.Content>
+      </Card.Root>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container mx-auto mt-10">
+    <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">Partners</h2>
+    <div class="flex flex-col items-center justify-around space-y-10 lg:flex-row lg:space-y-0 lg:space-x-5">
+      <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
+        <Card.Content class="my-auto">
+          <a href="https://elixir-ireland.ie/" target="_blank" class="flex h-40 items-center justify-center p-6">
+            <img src="./elixir-ireland-logo.png" alt="Elixir Ireland" class="max-h-full max-w-full object-contain" />
+          </a>
+        </Card.Content>
+      </Card.Root>
+      <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
+        <Card.Content class="my-auto">
+          <a
+            href="https://biologicalresearchsociety.com/"
+            target="_blank"
+            class="flex h-40 items-center justify-center p-6"
+          >
+            <img src="./brs-logo.png" alt="Biological Research Society" class="max-h-full max-w-full object-contain" />
+          </a>
+        </Card.Content>
+      </Card.Root>
+      <Card.Root class="w-full max-w-sm border-1 border-slate-200 bg-slate-50">
+        <Card.Content class="my-auto">
+          <a href="https://genomicsdatascience.ie/" target="_blank" class="flex h-40 items-center justify-center p-6">
+            <img
+              src="./crt-genomics-logo.png"
+              alt="SFI Centre for Research Training in Genomics Data Science"
+              class="max-h-full max-w-full object-contain"
+            />
           </a>
         </Card.Content>
       </Card.Root>
@@ -132,11 +170,6 @@
   </div>
 </section>
 
-<section>
-  <div class="container mx-auto mt-15">
-    <h2 class="mb-8 text-center text-4xl font-bold text-muted-foreground">Conference Program</h2>
-    <p class="text-center text-muted-foreground lg:text-xl">Program coming soon.</p>
-  </div>
-</section>
+<ScheduleConference />
 
 <br />
