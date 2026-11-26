@@ -1,5 +1,4 @@
 <script lang="ts">
-  import ScheduleEcr from "@/components/ScheduleEcr.svelte";
   import type { PageProps } from "./$types";
 
   let { data }: PageProps = $props();
@@ -11,5 +10,3 @@
 
   const isActive = (href: string) => (href === currentPath ? "text-purple-700 font-bold" : "");
 </script>
-
-<ScheduleEcr />
